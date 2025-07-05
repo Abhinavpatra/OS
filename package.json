@@ -1,0 +1,19 @@
+{
+  "name": "os",
+  "version": "1.0.0",
+  "description": "Desktop environment",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abhinavpatra/OS.git"
+  },
+  "keywords": [],
+  "author": "Abhinav Patra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Abhinavpatra/OS/issues"
+  },
+  "homepage": "https://github.com/Abhinavpatra/OS#readme"
+}
