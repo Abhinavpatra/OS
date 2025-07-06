@@ -5,3 +5,5 @@
     3.  then make index.spec.tsx or .ts files in the directory for tests
     4.  Also this for some reason import React from "react";
 3.  set up babel
+4.  setting up CI/CD
+5.  
