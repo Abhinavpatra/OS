@@ -1,14 +1,11 @@
 
 import React from "react";
+import processDirectory from "@/utils/processDirectory";
 
 export default function Home() {
   return (
     <div>
-      <h1 className="text-7xl">hello         world!</h1>
-      <h2>
-        not hello
-      </h2>
+      <processDirectory.HelloWorld.Component/>
     </div>
-
   );
 }
