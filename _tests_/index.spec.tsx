@@ -4,14 +4,21 @@
 import React from "react";
 import "@testing-library/jest-dom";
 import { render, screen } from "@testing-library/react";
-// Use relative import if moduleNameMapper is not set up
+
+// Mock the dynamically imported HelloWorld component
+jest.mock("../components/apps/HelloWorld", () => ({
+  __esModule: true,
+  default: () => <h1>Hello world!</h1>,
+}));
+
 import Home from "../app/page";
 
 describe("Home", () => {
-  it("renders index page", () => {
+  it("renders index page", async () => {
     render(<Home />);
-    // Check for the h1 with the correct text
-    const heading = screen.getByRole("heading", { name: /hello world!/i });
+    const heading = await screen.findByRole("heading", {
+      name: /hello world!/i,
+    });
     expect(heading).toBeInTheDocument();
   });
 });
