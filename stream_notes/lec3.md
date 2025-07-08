@@ -1,4 +1,5 @@
 # January 16th, 2021 @ 9 PM PST
+
 ## Introduction
 
 - Episode 2 Recap (https://github.com/DustinBrett/x/commits/redo)

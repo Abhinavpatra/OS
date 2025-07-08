@@ -1,12 +1,7 @@
-import React from 'react'
+import React from "react";
 
 function WindowManager() {
-  return (
-    <div>
-        
-
-    </div>
-  )
+  return <div></div>;
 }
 
-export default WindowManager
+export default WindowManager;
