@@ -1,10 +1,12 @@
 import React from "react";
-import processDirectory from "@/utils/processDirectory";
+import {ProcessProvider} from "@/contexts/process";
+import { type ReactElement } from "react";
+import WindowManager from "@/components/system/WindowManager";
 
-export default function Home() {
+export default function Home(): ReactElement {
   return (
-    <div>
-      <processDirectory.HelloWorld.Component />
-    </div>
+    <ProcessProvider>
+      <WindowManager />
+    </ProcessProvider>
   );
 }
