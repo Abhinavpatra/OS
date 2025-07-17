@@ -9,11 +9,12 @@ Creating an OS self
 5. createContext is a state management tool, like zustand, recoil, redux
 6. `npm run prettier` every time before pushing the code.
 7.  file process.tsx defines two things:
-    1.  `processContext`
+    1.  useContext(): 
+    2.  `processContext`
          This is a React context created with createContext({}). It can be used to provide and consume shared state or functions related to "processes" (apps/components) throughout your component tree.
          Currently, it's just an empty context and not used further in this file.
 
-    2. `ProcessLoader`
+    3. `ProcessLoader`
          This is a React functional component (FC).
 
          It imports the processDirectory object, which contains all your available "processes" (apps/components), each with a Component property.
