@@ -4,7 +4,6 @@ import { createContext, useState, useContext } from 'react';
 import type { Processes } from '@/types/utils/processDirectory';
 import processDirectory from "@/utils/processDirectory"
 
-
 type ProcessContextState = {
   processes: Partial<Processes>;
 };
