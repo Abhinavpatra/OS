@@ -12,7 +12,9 @@
     "prettier": "prettier --write ."
   },
   "dependencies": {
-    "framer-motion": "^12.23.3",
+    "framer-motion": "^12.23.11",
+    "jest-next-dynamic": "^1.0.2",
+    "motion": "^12.23.11",
     "next": "^15.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
